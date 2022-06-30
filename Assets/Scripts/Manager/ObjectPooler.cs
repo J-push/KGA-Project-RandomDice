@@ -25,6 +25,7 @@ public class ObjectPooler : MonoBehaviour
 
 
 
+
 	public static GameObject SpawnFromPool(string tag, Vector3 position) =>
 		Inst._SpawnFromPool(tag, position, Quaternion.identity);
 
