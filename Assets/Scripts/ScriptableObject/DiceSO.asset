@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7aa87b489e1ac4fb48cba2a89b0802, type: 3}
+  m_Name: DiceSO
+  m_EditorClassIdentifier: 
+  diceDatas:
+  - code: 0
+    sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    color: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
+    basicAttackDamage: 0
+  - code: 1
+    sprite: {fileID: 21300000, guid: c7b5606d7984a8f43a5490e43f965715, type: 3}
+    color: {r: 0.70980394, g: 0.1254902, b: 0.18823531, a: 1}
+    basicAttackDamage: 15
+  - code: 2
+    sprite: {fileID: 21300000, guid: 99ec00b84d041fb48863338ef419f7fc, type: 3}
+    color: {r: 0.03137255, g: 0.49803925, b: 0.78823537, a: 1}
+    basicAttackDamage: 5
+  - code: 3
+    sprite: {fileID: 21300000, guid: da4f09ee28901684ca0596ebddfd8cdb, type: 3}
+    color: {r: 0.7686275, g: 0.5882353, b: 0.32941177, a: 1}
+    basicAttackDamage: 15
+  - code: 4
+    sprite: {fileID: 21300000, guid: b44899026fae91341970cf8402cb0f34, type: 3}
+    color: {r: 0.10588236, g: 0.654902, b: 0.5882353, a: 1}
+    basicAttackDamage: 5
+  - code: 5
+    sprite: {fileID: 21300000, guid: f07180905b9b4af4b8ad002a742f996e, type: 3}
+    color: {r: 0.2627451, g: 0.5529412, b: 0.15294118, a: 1}
+    basicAttackDamage: 5
+  originDicePositions:
+  - {x: -1.3, y: -0.95}
+  - {x: -0.55, y: -0.95}
+  - {x: 0.2, y: -0.95}
+  - {x: 0.95, y: -0.95}
+  - {x: 1.7, y: -0.95}
+  - {x: -1.3, y: -1.7}
+  - {x: -0.55, y: -1.7}
+  - {x: 0.2, y: -1.7}
+  - {x: 0.95, y: -1.7}
+  - {x: 1.7, y: -1.7}
+  - {x: -1.3, y: -2.45}
+  - {x: -0.55, y: -2.45}
+  - {x: 0.2, y: -2.45}
+  - {x: 0.95, y: -2.45}
+  - {x: 1.7, y: -2.45}
